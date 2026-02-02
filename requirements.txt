@@ -1,7 +1,9 @@
+gunicorn
 dash
 pandas
 numpy
 plotly
 statsmodels
-gunicorn
+
+
 
