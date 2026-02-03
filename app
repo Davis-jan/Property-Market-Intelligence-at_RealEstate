@@ -26,7 +26,7 @@ df['valuation_price'] = (
 # APP INITIALISATION
 # =========================
 app = dash.Dash(__name__)
-
+server = app.server 
 app.title = "Property Market Intelligence"
 
 # =========================
@@ -282,6 +282,7 @@ with confidence intervals highlighting pricing uncertainty.
 # =========================
 if __name__ == "__main__":
     app.run(debug=False)
+
 
 
 
